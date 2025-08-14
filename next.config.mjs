@@ -11,8 +11,7 @@ const nextConfig = {
   },
   devIndicators: {
     buildActivity: false, // ✅ Disables the loading/build activity indicator
-  },
-  output: 'export', 
+  }, 
 };
 
 export default nextConfig;
