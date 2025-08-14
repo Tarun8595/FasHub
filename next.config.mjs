@@ -10,7 +10,7 @@ const nextConfig = {
     unoptimized: true,
   },
   devIndicators: {
-    buildActivity: false, // Disable the bottom-left Dev Tools indicator
+    buildActivity: false, // ✅ Disables the loading/build activity indicator
   },
 };
 
