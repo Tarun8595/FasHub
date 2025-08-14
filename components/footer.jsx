@@ -1,4 +1,4 @@
-import { Facebook, Instagram, Twitter, Youtube } from "lucide-react"
+import { Github, Instagram, Linkedin } from "lucide-react"
 
 export default function Footer() {
   return (
@@ -13,17 +13,14 @@ export default function Footer() {
               uniquely yours.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
-                <Facebook size={24} />
+              <a href="https://github.com/Tarun8595" target="_blank" className="text-gray-400 hover:text-white transition-colors">
+                <Github size={24} />
               </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
+              <a href="https://www.instagram.com/gtsyntax/" target="_blank" className="text-gray-400 hover:text-white transition-colors">
                 <Instagram size={24} />
               </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
-                <Twitter size={24} />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
-                <Youtube size={24} />
+              <a href="https://www.linkedin.com/in/tarun-kushwaha-7519a131a/" target="_blank" className="text-gray-400 hover:text-white transition-colors">
+                <Linkedin size={24} />
               </a>
             </div>
           </div>
